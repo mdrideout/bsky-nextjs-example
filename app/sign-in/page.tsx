@@ -95,7 +95,7 @@ export default function SignIn() {
       <div className="flex min-h-full flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
         <div className="w-full max-w-sm">
           <div>
-            <h1 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">bsky case builder</h1>
+            <h1 className="mt-10 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">Bluesky NextJS Client</h1>
             <p className="text-center italic">unofficial application</p>
             <h2 className="mt-10 text-center text-1xl leading-9 tracking-tight text-gray-900">Sign in with a Bluesky app password</h2>
           </div>

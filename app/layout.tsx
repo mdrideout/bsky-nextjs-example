@@ -6,19 +6,14 @@ import AtpAgentProvider from '../atp/bsky-agent-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'bsky case builder',
-  description:
-    '(Unoffial app) Create a moderation case for accelerated handling by the moderation team.',
+  title: 'Bluesky NextJS Client',
+  description: 'A NextJS 13.4 client for Bluesky with App Router and React Server Components.',
 }
 
 // Global Contexts
 
 // Root Layout
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={'h-full bg-white'}>
       <body className={inter.className + ' h-full'}>
