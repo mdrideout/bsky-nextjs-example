@@ -44,7 +44,7 @@ In the cases of server-side data fetching, the XRPC wrapper is bypassed and we c
 
 I have not spent much time troubleshooting the `document is not defined` errors when trying to execute `BskyAgent` calls on the server.
 
-The `defaultFetchHandler()` function at the root of the XRPC calls appears to use the `fetch()` method which should be server-side compatible.
+The [`defaultFetchHandler()`](https://github.com/bluesky-social/atproto/blob/main/packages/xrpc/src/client.ts#L134) function at the root of the XRPC calls appears to use the `fetch()` method which should be server-side compatible.
 
 ### Possible Solutions
 
